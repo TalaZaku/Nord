@@ -1,0 +1,70 @@
+body{
+    direction: ltr;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Style for navbar */
+.navbar{
+    position: absolute;
+}
+.container .navbar .navbar-nav .nav-link{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    padding-left: 59px;
+    position: absolute;
+    background: transparent;
+}
+.navbar .navbar-nav .nav-link:hover{
+    transition-duration: 0.6s;
+    background: #262a34;
+    color: #ffffff;
+}
+
+/*Style for hero section*/
+.hero{
+    width: 100%;
+    height: 980px;
+    background: #ffffff;
+    position: relative;
+}
+.hero .container,
+.hero .container .row{
+        height: 980px;
+    }
+.bgabsolute{
+-webkit-clip-path: polygon(54% 0, 100% 0%, 100% 100%, 33% 100%);
+clip-path: polygon(54% 0, 100% 0%, 100% 100%, 33% 100%);
+background: #41e0d8;
+position: absolute;
+width: 100%;
+height: 980px;
+}
+i{
+    font-size: 43px;
+    color: #3c3d41;
+    font-weight: 500;
+}
+.h1{
+    font-size: 43px;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+}
+.hero p{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.img-fluid{
+    padding-right: 150px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
